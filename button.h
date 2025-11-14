@@ -1,7 +1,7 @@
 #ifndef BUTTON_H
 #define BUTTON_H
 // -------------------------- 按芯片系列修改这行 ----------------------------
-#include "stm32f1xx_hal_tim.h"
+#include "stm32f1xx_hal.h"
 // --------------------------- 用户需修改下列宏 -----------------------------
 #define BUTTON_TIMER TIM2    // 按键定时器（5ms）
 #define BTN1_ACTIVE_LEVEL 0  // 按键有效电平（0或1）
